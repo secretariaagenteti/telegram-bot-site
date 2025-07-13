@@ -4,6 +4,15 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FeaturesGrid from '../components/FeaturesGrid.astro';
 import CtaSection from '../components/CtaSection.astro';
+
+export const head = {
+  title: 'Secretaria Agente TI',
+  meta: [
+    { name: 'description', content: 'Asistente virtual universitario en Telegram. Obtén ayuda con materias, horarios, tareas y más. Disponible 24/7 para estudiantes universitarios.' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
+    { charset: 'UTF-8' }
+  ]
+};
 ---
 
 <BaseLayout>
