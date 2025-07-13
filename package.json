@@ -6,7 +6,11 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "pnpm:build": "pnpm build",
+    "pnpm:dev": "pnpm dev",
+    "pnpm:lint": "pnpm lint",
+    "pnpm:start": "pnpm start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
