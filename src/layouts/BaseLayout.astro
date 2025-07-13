@@ -1,6 +1,7 @@
 ---
 // Base layout for all pages
 import '../assets/styles.css';
+import ScrollDownButton from '../components/ScrollDownButton.astro';
 const projectName = 'Secretaria Agente TI';
 ---
 <html lang="en">
@@ -9,7 +10,8 @@ const projectName = 'Secretaria Agente TI';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{projectName}</title>
   </head>
-  <body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+  <body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 [&::-webkit-scrollbar]:hidden scrollbar-hide">
     <slot />
+    <ScrollDownButton />
   </body>
 </html>
